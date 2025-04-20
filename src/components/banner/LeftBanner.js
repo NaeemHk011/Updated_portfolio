@@ -22,7 +22,7 @@ const LeftBanner = () => {
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
         <h1 className="text-6xl font-bold text-white">
-          Hi, I'm <span className="text-designColor capitalize">John doe</span>
+          Hi, I'm <span className="text-designColor capitalize">Naeem Hussain</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
           a <span>{text}</span>
@@ -33,9 +33,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I use animation as a third dimension by which to simplify experiences
-          and kuiding thro each and every interaction. I'm not adding motion
-          just to spruce things up, but doing it in ways that.
+          I use the MERN stack to simplify user experiences and guide interactions. It’s not just about functionality, but creating a dynamic, intuitive architecture with Node.js, Express, React, and MongoDB.
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -44,22 +42,22 @@ const LeftBanner = () => {
             Find me in
           </h2>
           <div className="flex gap-4">
-            <a href="https://github.com/noorjsdivs/portfolioone" target="blank">
+            <a href="https://github.com/NaeemHk011" target="blank">
               <span className="bannerIcon">
                 <FaGithub />
               </span>
             </a>
-            <a href="https://github.com/noorjsdivs/portfolioone" target="blank">
+            <a href="https://www.facebook.com/Naeemh11/" target="blank">
               <span className="bannerIcon">
                 <FaFacebookF />
               </span>
             </a>
-            <a href="https://github.com/noorjsdivs/portfolioone" target="blank">
+            <a href="https://x.com/itxx_naeem" target="blank">
               <span className="bannerIcon">
                 <FaTwitter />
               </span>
             </a>
-            <a href="https://github.com/noorjsdivs/portfolioone" target="blank">
+            <a href="https://www.linkedin.com/in/naeem-frontend-dev/" target="blank">
               <span className="bannerIcon">
                 <FaLinkedinIn />
               </span>
