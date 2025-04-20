@@ -11,19 +11,19 @@ const ContactLeft = () => {
         alt="contactImg"
       />
       <div className="flex flex-col gap-4">
-        <h3 className="text-3xl font-bold text-white">John Doe</h3>
+        <h3 className="text-3xl font-bold text-white">Naeem Hussain</h3>
         <p className="text-lg font-normal text-gray-400">
           MERN Stack Developer
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-          ipsam autem cumque, accusantium dicta odio.
+          As a MERN stack developer, I specialize in building full-stack web applications using the powerful combination of **MongoDB**, **Express.js**, **React**, and **Node.js**. I design scalable and efficient applications, utilizing MongoDB for data storage, Express for building server-side APIs, React for creating dynamic user interfaces, and Node.js for handling back-end logic. This stack allows me to create seamless, responsive, and modern web solutions for a variety of projects.
+
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+968 97859628</span>
+          Phone: <span className="text-lightText">+92303-2260380</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Email: <span className="text-lightText">noor.jsdivs@gmail.com</span>
+          Email: <span className="text-lightText">itxkhaskheli@gmail.com</span>
         </p>
       </div>
       <div className="flex flex-col gap-4">

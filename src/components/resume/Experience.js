@@ -11,53 +11,60 @@ const Experience = () => {
     >
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
+          <p className="text-sm text-designColor tracking-[4px]">2024 - Present</p>
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+          {/* Updated Google Job */}
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            title="MERN Stack Developer"
+            subTitle="Freelancer - (Sep 2024 - Present)"
+            result="Freelance"
+            des="Developed and maintained web applications using the MERN stack. Built and optimized both front-end and back-end components for seamless performance, improving user experience and enhancing overall application efficiency."
           />
+          {/* Updated Instructor Job */}
+          <ResumeCard
+            title="Next.js Instructor"
+            subTitle="Governor House Sindh - (Jan 2024 - Sep 2024)"
+            result="Pakistan"
+            des="Led workshops and training sessions on Next.js, focusing on server-side rendering and SEO optimization. Created learning materials and collaborated with administrative teams to ensure effective delivery."
+          />
+          {/* Updated Nike Job */}
           <ResumeCard
             title="Web Developer & Trainer"
             subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
-          />
-          <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+            result="Pakistan"
+            des="Trained aspiring developers and built web applications, focusing on improving the team's technical skills and web-based solutions."
           />
         </div>
       </div>
+
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2001 - 2020</p>
+          <p className="text-sm text-designColor tracking-[4px]">2010 - Present</p>
           <h2 className="text-3xl md:text-4xl font-bold">Trainer Experience</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+          {/* Updated Gym Instructor */}
           <ResumeCard
-            title="Gym Instructor"
-            subTitle="Rainbow Gym Center (2015 - 2020)"
-            result="DHAKA"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            title="MERN Stack Instructor"
+            subTitle="Aptech - (2016 - Present)"
+            result="Pakistan"
+            des="Imparting knowledge on MERN stack technologies, helping students understand full-stack development with MongoDB, Express.js, React, and Node.js. Currently teaching MERN stack courses."
           />
+          {/* Updated Web Developer & Instructor */}
           <ResumeCard
             title="Web Developer and Instructor"
-            subTitle="SuperKing College (2010 - 2014)"
-            result="CANADA"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+            subTitle="SuperKing College - (2010 - 2014)"
+            result="Pakistan"
+            des="Taught web development courses, guiding students through HTML, CSS, JavaScript, and introducing them to full-stack development frameworks."
           />
+          {/* Updated Teacher */}
           <ResumeCard
             title="School Teacher"
-            subTitle="Kingstar Secondary School (2001 - 2010)"
-            result="NEVADA"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            subTitle="Kingstar Secondary School - (2001 - 2010)"
+            result="Pakistan"
+            des="Taught secondary-level subjects, focusing on fostering creativity, problem-solving, and a strong foundational understanding in various academic disciplines."
           />
         </div>
       </div>
