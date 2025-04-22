@@ -32,7 +32,7 @@ const Experience = () => {
           {/* Updated Nike Job */}
           <ResumeCard
             title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
+            subTitle=" - (2023 - 2025)"
             result="Pakistan"
             des="Trained aspiring developers and built web applications, focusing on improving the team's technical skills and web-based solutions."
           />
