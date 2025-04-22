@@ -1,8 +1,8 @@
 import React from 'react';
 import Title from '../layouts/Title';
-import { projectOne, projectTwo, projectThree, projectFour } from "../../assets/index";
+import { projectOne, projectTwo, projectThree, projectFour, projectFifth, projectSixth } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
-import { Link } from 'react-router-dom';
+
 
 const Projects = () => {
   return (
@@ -21,43 +21,37 @@ const Projects = () => {
           title="AI Content Generator"
           des="I created an AI content generator using React. It automatically generates high-quality, relevant content for various platforms, saving time for content creators."
           src={projectOne}
-          githubLink="https://github.com/yourusername/ai-content-generator" // Example GitHub link
           websiteLink="https://text-ai-5.vercel.app/" // Example website link
         />
         <ProjectsCard
           title="E-commerce Website"
           des="I developed an e-commerce website for furniture using React. It allows users to browse and purchase a wide range of stylish and affordable furniture online with ease."
           src={projectTwo}
-          githubLink="https://github.com/yourusername/e-commerce-furniture"
           websiteLink="https://furniture-ecommerce-virid.vercel.app/"
         />
         <ProjectsCard
           title="X-Fesion E-commerce"
           des="I built an e-commerce website for clothing using React. It offers a seamless shopping experience, allowing customers to browse and purchase trendy apparel online."
           src={projectThree}
-          githubLink="https://github.com/yourusername/x-fesion-ecommerce"
           websiteLink="https://xfashion-shop.vercel.app/"
         />
         <ProjectsCard
           title="Fitness Tracker"
           des="I have created a fitness tracker website using the MERN stack. Users can track their fitness goals, create workout plans, and monitor their progress on the website."
           src={projectFour}
-          githubLink="https://github.com/yourusername/fitness-tracker"
           websiteLink="https://fitness-tracker-frontend-blue.vercel.app/web"
         />
         <ProjectsCard
-          title="E-commerce Website"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
-          githubLink="https://github.com/yourusername/e-commerce-website"
-          websiteLink="https://giaic-assignment.vercel.app"
+          title="KNF-Enterprise"
+          des="I developed an e-commerce website for KNF enterprise using React. It allows users to browse and purchase a wide range of stylish and affordable furniture online with ease."
+          src={projectFifth}
+          websiteLink="https://knf-enterprise.vercel.app/"
         />
         <ProjectsCard
-          title="Chatting App"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
-          githubLink="https://github.com/yourusername/chatting-app"
-          websiteLink="https://chatting-app.com"
+          title="Assignment-App"
+          des="This app allows students to view and submit their assignments effortlessly. It helps students track assignment deadlines and submit them on time."
+          src={projectSixth}
+          websiteLink="https://giaic-assignment.vercel.app/"
         />
       </div>
     </section>
